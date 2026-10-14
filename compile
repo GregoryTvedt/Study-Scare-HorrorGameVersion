@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo Compiling Typescript
+npx tsc --rootDir src/ --outDir dist/

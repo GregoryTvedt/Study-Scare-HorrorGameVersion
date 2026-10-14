@@ -1,0 +1,27 @@
+{
+  "name": "jumpscare-project",
+  "version": "0.0.1",
+  "description": "This project uses Google's Face landmark detection to track the user's eye and head movement, jumpscaring them if they look away for too long",
+  "main": "dist/main/main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Gregory Tvedt",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^8.0.1",
+    "@electron-forge/maker-deb": "^8.0.1",
+    "@electron-forge/maker-squirrel": "^8.0.1",
+    "@electron-forge/maker-zip": "^8.0.1",
+    "electron": "^44.5.1",
+    "http-server": "^14.1.1",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "^1.0.1"
+  }
+}

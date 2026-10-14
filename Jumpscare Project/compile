@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [! -d "dist]"]
+then
+    mkdir dist
+    echo Created dist directory
+fi
+
+echo Compiling Typescript
+tsc --rootDir src/ --outDir dist/
